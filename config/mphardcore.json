@@ -1,0 +1,9 @@
+{
+  "defaultLives": 0,
+  "maxRescueTimes": 9999,
+  "enableInSinglePlayer": false,
+  "setLivesOpLevel": 1,
+  "getLivesOpLevel": 1,
+  "rescueOpLevel": 0,
+  "resetRescueOpLevel": 4
+}
