@@ -1,14 +1,6 @@
 {
   description = "
-    https://fabricmc.net/use/server/
-    need fabric api
-    https://www.curseforge.com/minecraft/mc-mods/fabric-api
-    https://modrinth.com/mod/essential-commands
-    https://modrinth.com/datapack/hardcore-revive-plus
-    https://serverside.infra.link/
-    //maybe
-    https://modrinth.com/mod/player-roles
-    https://modrinth.com/mod/keepinventory
+    basic setup for a minecraft fabric server
   ";
 
   inputs = {
@@ -21,16 +13,23 @@
       let
         pkgs = import nixpkgs {
           inherit system;
+           config = {
+          allowUnfree = true;
+          allowUnfreePredicate = _: true;
+        };
         };
       in
       {
         devShells.default = with pkgs; mkShell {
          buildInputs = [
+            #udev lib 
+            systemd
             lunar-client
             jdk22
          ];
           shellHook = ''
-            alias _start='java -Xmx2G -jar fabric-server-mc.1.21.1-loader.0.16.5-launcher.1.0.1.jar nogui'
+            alias runMc='java -Xmx2G -jar fabric-server-mc.1.21.1-loader.0.16.5-launcher.1.0.1.jar nogui'
+            alias cleanUserDataMc="rm -rf world/playerdata/**"
           '';
         };
       }
