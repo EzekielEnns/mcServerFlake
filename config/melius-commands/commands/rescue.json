@@ -1,0 +1,14 @@
+{
+	"id": "rescue",
+    "require": {
+        "type": "permission",
+        "permission": "rescue",
+        "operator": 0
+    },
+	"executes": [
+		{
+			"command": "hardcore rescue @p[distance=0.01..3]",
+            "as_console":true
+		}
+	]
+}

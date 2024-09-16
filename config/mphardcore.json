@@ -4,6 +4,6 @@
   "enableInSinglePlayer": false,
   "setLivesOpLevel": 1,
   "getLivesOpLevel": 1,
-  "rescueOpLevel": 0,
+  "rescueOpLevel": 1,
   "resetRescueOpLevel": 4
 }
