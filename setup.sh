@@ -16,6 +16,12 @@ curl --create-dirs -O --output-dir ./mods/ -J \
 #https://modrinth.com/mod/melius-commands
 curl --create-dirs -O --output-dir ./mods/ -J \
     https://cdn.modrinth.com/data/lCC4AmlO/versions/u2PLpTiu/melius-commands-1.1.0%2B1.21.jar
+#https://modrinth.com/mod/textile_backup
+curl --create-dirs -O --output-dir ./mods/ -J \
+    https://cdn.modrinth.com/data/wwcspvkr/versions/C73KkDD6/textile_backup-3.1.3-1.21.jar
+#https://modrinth.com/mod/cloth-config
+curl --create-dirs -O --output-dir ./mods/ -J \
+    https://cdn.modrinth.com/data/9s6osm5g/versions/HpMb5wGb/cloth-config-15.0.140-fabric.jar
 #https://modrinth.com/mod/player-roles
 #curl --create-dirs -O --output-dir ./mods/ -J 
 #    https://cdn.modrinth.com/data/Rt1mrUHm/versions/WSx6SItb/player-roles-1.6.11.jar

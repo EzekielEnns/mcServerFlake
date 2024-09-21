@@ -7,7 +7,7 @@
     },
 	"executes": [
 		{
-			"command": "hardcore rescue @p[distance=0.01..3]",
+			"command": "hardcore rescue @p[distance=0.01..5]",
             "as_console":true
 		}
 	]
