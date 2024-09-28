@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "925da857-d8a0-4e3e-b07c-0e49e16bfd2b",
+    "name": "zekgoose",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "_c1": "Enables Polymer's ResourcePack Auto Hosting",
+  "enabled": false,
+  "_c2": "Marks resource pack as required",
+  "required": false,
+  "_c3": "Type of resource pack provider. Default: 'polymer:automatic'",
+  "type": "polymer:automatic",
+  "_c4": "Configuration of type, see provider's source for more details",
+  "settings": {},
+  "_c5": "Message sent to clients before pack is loaded",
+  "message": "This server uses resource pack to enhance gameplay with custom textures and models. It might be unplayable without them.",
+  "_c6": "Disconnect message in case of failure",
+  "disconnect_message": "Couldn't apply server resourcepack!",
+  "external_resource_packs": [],
+  "setup_early": false
+}
