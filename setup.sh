@@ -47,6 +47,9 @@ curl --create-dirs -O --output-dir ./mods/ -J \
 #https://modrinth.com/mod/tree-harvester
 curl --create-dirs -O --output-dir ./mods/ -J \
     https://cdn.modrinth.com/data/abooMhox/versions/mmgoH9qo/treeharvester-1.21.1-9.1.jar
+#https://modrinth.com/mod/ore-harvester
+curl --create-dirs -O --output-dir ./mods/ -J \
+    https://cdn.modrinth.com/data/Xiv4r347/versions/ugXfLS9y/oreharvester-1.21.1-1.4.jar
 #https://modrinth.com/mod/villager-names-serilum
 curl --create-dirs -O --output-dir ./mods/ -J \
     https://cdn.modrinth.com/data/gqRXDo8B/versions/WPsLTKwG/villagernames-1.21.1-8.1.jar
