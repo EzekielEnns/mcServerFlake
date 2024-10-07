@@ -56,3 +56,21 @@ curl --create-dirs -O --output-dir ./mods/ -J \
 #https://modrinth.com/mod/collective
 curl --create-dirs -O --output-dir ./mods/ -J \
     https://cdn.modrinth.com/data/e0M1UDsY/versions/13do3Fe4/collective-1.21.1-7.84.jar
+#https://modrinth.com/datapack/infinity-cave
+curl --create-dirs -O --output-dir ./mods/ -J \
+    https://cdn.modrinth.com/data/DEq97NAA/versions/HlH2cRzr/infinity-cave-0.6.jar
+#https://modrinth.com/datapack/qraftys-bunkers
+curl --create-dirs -O --output-dir ./mods/ -J \
+    https://cdn.modrinth.com/data/xlB8CNvE/versions/jUD6K6Ev/qraftys-bunkers-2.2.jar
+#https://modrinth.com/mod/dungeon-finder
+curl --create-dirs -O --output-dir ./mods/ -J \
+    https://cdn.modrinth.com/data/YngTjCWl/versions/MRyvFKT4/dungeon_finder-1.0%2Bbuild.6.jar
+#https://modrinth.com/mod/highspeed-rail
+curl --create-dirs -O --output-dir ./mods/ -J \
+    https://cdn.modrinth.com/data/d7PCSOkD/versions/Yrqbb2TS/highspeed-rail-0.9.0%2B1.21.1.jar
+#https://modrinth.com/mod/view-distance-fix
+curl --create-dirs -O --output-dir ./mods/ -J \
+    https://cdn.modrinth.com/data/nxrXbh5K/versions/MYTZEnn2/viewdistancefix-fabric-1.21.1-1.0.2.jar
+#https://modrinth.com/mod/inventory-organizer
+curl --create-dirs -O --output-dir ./mods/ -J \
+    https://cdn.modrinth.com/data/WSxuHkCV/versions/k9HitArp/inventory-organizer-1.2.22-a.jar

@@ -1,0 +1,23 @@
+{
+	// If enabled, ore harvesting works when not holding the sneak button. If disabled it's reversed, and only works when sneaking.
+	"oreHarvestWithoutSneak": false,
+	// Whether all ore drops in a mined vein should drop at the first broken block's position.
+	"dropOresAtFirstBrokenBlock": true,
+	// With fuzzy search enabled, it uses a block's raw name to determine whether it's an ore block. Improves compatibility with other mods that have not set a block tag, but does create a small chance of a false positive.
+	"enableFuzzyOreSearch": true,
+	// If enabled, for every ore harvested, the held pickaxe loses durability.
+	"loseDurabilityPerHarvestedOre": true,
+	// Here you can set how much durability harvesting an ore vein should take from the pickaxe. For example if set to 0.1, this means that every 10 ore take 1 durability.
+	// min: 0.001, max: 1.0
+	"loseDurabilityModifier": 1.0,
+	// If enabled, players' exhaustion level increases 0.005 per harvested ore (Minecraft's default per broken block) * increaseExhaustionModifier.
+	"increaseExhaustionPerHarvestedOre": true,
+	// This determines how much exhaustion should be added to the player per harvested ore. By default 0.005 * 1.0.
+	// min: 0.001, max: 1.0
+	"increaseExhaustionModifier": 1.0,
+	// If enabled, harvesting time will increase per existing ore in a vein. The amount is determined by 'increasedHarvestingTimePerOreModifier'.
+	"increaseHarvestingTimePerOre": true,
+	// How much longer it takes to harvest an ore vein with 'increaseHarvestingTimePerOre' enabled. The actual speed is: newSpeed = originalSpeed / (1 + (logCount * increasedHarvestingTimePerOreModifier)).
+	// min: 0.01, max: 10.0
+	"increasedHarvestingTimePerOreModifier": 0.2
+}

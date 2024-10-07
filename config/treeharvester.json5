@@ -1,6 +1,6 @@
 {
 	// If enabled, tree harvesting only works when a player is holding an axe in the main hand.
-	"mustHoldAxeForTreeHarvest": false,
+	"mustHoldAxeForTreeHarvest": true,
 	// If enabled, tree harvesting works when not holding the sneak button. If disabled it's reversed, and only works when sneaking.
 	"treeHarvestWithoutSneak": false,
 	// Whether the mod should attempt to find the actual bottom log of the tree and start there. This means you can break a tree in the middle and it will still completely be felled.
@@ -28,7 +28,7 @@
 	// min: 0.001, max: 1.0
 	"increaseExhaustionModifier": 1.0,
 	// If enabled, harvesting time will increase per existing log in the tree. The amount is determined by 'increasedHarvestingTimePerLogModifier'.
-	"increaseHarvestingTimePerLog": true,
+	"increaseHarvestingTimePerLog": false,
 	// How much longer it takes to harvest a tree with 'increaseHarvestingTimePerLog' enabled. The actual speed is: newSpeed = originalSpeed / (1 + (logCount * increasedHarvestingTimePerLogModifier)).
 	// min: 0.01, max: 10.0
 	"increasedHarvestingTimePerLogModifier": 0.2,

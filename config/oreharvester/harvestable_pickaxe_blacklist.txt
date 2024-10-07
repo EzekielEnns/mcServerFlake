@@ -1,0 +1,7 @@
+// To disable a certain pickaxe from being able to harvest ore veins, add an exclamation mark (!) in front of the line,
+minecraft:wooden_pickaxe,
+minecraft:stone_pickaxe,
+minecraft:golden_pickaxe,
+minecraft:iron_pickaxe,
+minecraft:diamond_pickaxe,
+minecraft:netherite_pickaxe,
